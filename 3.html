@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ca" lang="ca">
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+  <link href="css1.css" rel="stylesheet" type="text/css"/>
+  <head>
+    <title>Inici de la pàgina</title>
+  </head>
+  <body>  
+      <div class="menu">
+        <ul>
+          <li style="float: left; padding-top: 5px"><a href="index.html"><img src="IMATGES/logo.png" id="logo" width="80px" /></a></li>
+          <li><b><a href="contacte.html">CONTACTE</a></li>
+          <li><a href="2.html">SOBRE L'ARTISTA</a></li>       
+          <li><a href="3.html">ENQUESTA</a></li>       
+          <li><a href="1.html">ALBUMS</a></li>
+          <li><a href="index.html">INICI</a></b></li>
+        </ul> 
+      </div>
+
+      <div class="enquesta">
+      <form method="post" action="form-text.php">
+        <fieldset style="font-family: Arial;">
+          <p style="font-size: 20px;text-align: center;"><b>QUANT CONEIXES A DAVID BOWIE?</b></p>
+            <ul style="font-size:15px;font-family:Arial;text-align: left">
+              <li>
+                <b>El nom de naixement de David Bowie és... </b><br /><br />
+                <input name="nom" type="radio" value="nom"><a>Morris Dave</a><input name="nom" type="radio" value="nom"><a>John Davis</a><input name="nom" type="radio" value="nom"><a>David Jones</a>
+              </li>
+              <br>
+              <li>
+                <b>A quin any va sortir l'àlbum "Space Oddity"? </b><br /><br />
+                <input name="any" type="radio" value="any"><a>1972</a><input name="any" type="radio" value="any"><a>1969</a><input name="nom" type="radio" value="any"><a>1967</a>
+              </li>
+              <br>
+              <li>
+                <b>Com es diu la cançó que va fer David Bowie amb Mick Jagger? </b><br /><br />
+                <input name="song" type="radio" value="song"><a>Absolute Beginners</a><input name="song" type="radio" value="song"><a>Dancing in the Street</a><br /><br /><input name="song" type="radio" value="song"><a>Heroes</a><input style="margin-left: 97px;" name="song" type="radio" value="song"><a>What in the World</a>
+              </li>            
+              <br>            
+              <li>
+                <b>Per què David Bowie té un ull diferent de l'altre? </b><br /><br />
+                <input name="ull" type="radio" value="ull"><a>Absolute Beginners</a><input name="ull" type="radio" value="ull"><a>Dancing in the Street</a><br /><br /><input name="ull" type="radio" value="ull"><a>Heroes</a><input style="margin-left: 97px;" name="ull" type="radio" value="ull"><a>What in the World</a>
+              </li>  
+              <br>
+              <li>
+                Raó per la qual es vol posar en contacte:
+                <select name="Tema">
+                  <option value="0" selected="selected"/>
+                  <option value="copyright">Drets d'autor.<option>
+                  <option value="corregir">Correcció d'alguna errada.<option>
+                  <option value="colaborar">Col·laborar amb nosaltres.<option>
+                </select>
+              </li>
+              <br>
+              <li>
+                Introduïu la vostra consulta: <br>  
+                <textarea name="Introduïu la vostra consulta: "></textarea>
+              </li>
+              <br />
+              <li style="text-align:center">
+                <input type="submit" value="Enviar"/>    
+              </li> 
+            </ul>
+        </fieldset>
+      </form>        
+      </div>
+  </body>
+</html>
