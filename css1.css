@@ -276,28 +276,27 @@ a:link {
 /*-----------------------------*/
 
 /*-----------------------------*/
-/*Albums*/
+/* Enquesta */
 .enquesta {  
     display: block;
     text-align: center;
 }
 
 .enquesta form {
-  width: 500px;
+  width: 800px;
   padding-top: 100px;
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  text-align: left;
   text-decoration: none;
-} 
+}
 
 .enquesta li {
     list-style-type:none;
 }
 
 .enquesta ul {
-  padding-left: 15px;
+  padding: 0 auto;
 }
 
 .enquesta fieldset {
@@ -305,14 +304,21 @@ a:link {
   border-radius: 15px;
 }
 
-.enquesta textarea {
-  width: 320px;
-  height: 200px;
-  resize: none;
-}
-
 .enquesta a {
   font-size: 17px;
   display: inline-block;
   margin-right: 30px;
+}
+
+.boto {
+  padding-right: 30px;
+}
+
+.boto input {
+  border-radius: 10px;
+  background: #0066A2;
+  color: white;
+  height: 50px;
+  width: 300px;
+  font: bold 15px arial,sans-serif;
 }
