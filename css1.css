@@ -9,13 +9,12 @@ body {
 /* INICI index.html */ 
 
 .menu ul {
-  font-family: Arial;
   font-size: 18px;
   list-style-type: none;
   margin: 0;
   padding-right: 40px;
   overflow: hidden;
-  background-color: #262626;
+  background-color: #1f1f1f;
   border-radius: 15px;
 }
 
@@ -25,6 +24,7 @@ body {
 }
 
 .menu a {
+  font-family: 'Josefin Sans', sans-serif;
   display: block;
   color: white;
   text-align: center;
@@ -55,44 +55,6 @@ body {
 
 
 /*-----------------------------*/
-/*Formulari de contacte*/
-
-.formulari {  
-    display: block;
-    text-align: center;
-}
-
-.formulari form {
-  width: 500px;
-  padding-top: 100px;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  text-decoration: none;
-} 
-
-.formulari li {
-    list-style-type:none;
-}
-
-.formulari ul {
-  padding-left: 15px;
-}
-
-.formulari fieldset {
-  background-color: white;
-  border-radius: 15px;
-}
-
-.formulari textarea {
-  width: 320px;
-  height: 200px;
-  resize: none;
-}
-/*-----------------------------*/
-
-/*-----------------------------*/
 /*Albums*/
 
 .albums {
@@ -104,90 +66,13 @@ body {
   width: 400px;
 }
 
-.albums h1, h4, .titol-album h1{
+.albums h1, h3, .titol-album h1 {
   font-weight: bold;
   color: #fff;
   font-family: Arial;
   text-shadow: 2px 2px 0 #000;
 }
 
-.bowie-bio1, .bowie-bio2 {
-  float: center;
-  width: 1300px;
-  display: block;
-  margin: auto;
-  margin-bottom: 0.5cm; 
-  padding: 0.5cm;
-  background: #262626;
-  color: white;
-  border-radius: 15px;
-  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.25);
-  text-align: left;
-}
-
-.bowie-wiki p {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 17.5px;
-}
-
-.bowie-wiki li {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-      
-.bowie-bio1 img {
-  float: left;
-  margin-left: 10px;
-  padding-right: 32px;
-  border-radius: 5px;
-  padding-top: 15px;
-}
-
-.bowie-bio2 img {
-  float: right;
-  margin-right: 10px;
-  padding-left: 32px;
-  padding-top: 30px;
-  border-radius: 5px;
-}
-
-.bowie-bio3 { 
-  float: center;
-  width: 1300px;
-  height: 520px;
-  margin: auto;
-  margin-bottom: 0.5cm; 
-  padding: 0.5cm;
-  background: #262626;
-  color: white;
-  border-radius: 15px;
-  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.25);
-  text-align: left;
-  background-image: url("IMATGES/bowie5.jpg");
-  background-repeat: no-repeat;
-  background-size: 1400px;
-  font-weight: bold;
-  color: #fff;
-  font-family: Arial;
-  text-shadow: 2px 2px 0 #000;
-}
-
-.bowie-bio3 ul {
-  padding-left: 2cm;
-  padding-right: 2cm;
-}
-
-
-.bowie-bio3 a {
-  color: white;
-} 
-
-a:link {
-  text-decoration: none;
-}
-
-/*-----------------------------*/
 /* Llistes d'albums amb cançons */
 
 .bowie-tracklist p,li {
@@ -204,7 +89,7 @@ a:link {
   margin: auto;
   margin-bottom: 0.5cm; 
   padding: 0.5cm;
-  background: #262626;
+  background: #1f1f1f;
   color: white;
   border-radius: 15px;
   box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.25);
@@ -275,8 +160,116 @@ a:link {
 }
 /*-----------------------------*/
 
+
+/*-----------------------------*/
+/*Sobre l'artista*/
+
+.bowie-bio1, .bowie-bio2, .bowie-bio3, .bowie-bio4, .bowie-bio5 {
+  float: center;
+  width: 1300px;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.5cm; 
+  padding: 0.5cm;
+  background: #1f1f1f;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.25);
+  text-align: left;
+}
+
+.bowie-wiki p {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 17.5px;
+  margin-left: 20px;
+}
+
+.bowie-wiki li {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+      
+.bowie-bio1 img {
+  float: left;
+  margin-left: 10px;
+  padding-right: 32px;
+  border-radius: 5px;
+  padding-top: 15px;
+}
+
+.bowie-bio2 img {
+  float: right;
+  margin-right: 10px;
+  padding-left: 32px;
+  padding-top: 30px;
+  border-radius: 5px;
+}
+
+.bowie-bio3 img {
+  float: left;
+  margin-left: 10px;
+  padding-right: 32px;
+  border-radius: 5px;
+  padding-top: 27px;
+}
+
+.bowie-bio4 img {
+  float: right;
+  margin-right: 10px;
+  padding-left: 32px;
+  padding-top: 20px;
+  border-radius: 5px;
+}
+
+.bowie-bio5 img {
+  float: left;
+  margin-left: 10px;
+  padding-right: 32px;
+  border-radius: 5px;
+  padding-top: 20px;
+}
+
+.bowie-bio8 { 
+  float: center;
+  width: 1300px;
+  height: 520px;
+  margin: auto;
+  margin-bottom: 0.5cm; 
+  padding: 0.5cm;
+  background: #262626;
+  color: white;
+  border-radius: 15px;
+  box-shadow: 15px 15px 5px rgba(0, 0, 0, 0.25);
+  text-align: left;
+  background-image: url("IMATGES/bowie5.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px;
+  font-weight: bold;
+  color: #fff;
+  font-family: Arial;
+  text-shadow: 2px 2px 0 #000;
+}
+
+.bowie-bio8 ul {
+  padding-left: 2cm;
+  padding-right: 2cm;
+}
+
+
+.bowie-bio8 a {
+  color: white;
+} 
+
+a:link {
+  text-decoration: none;
+}
+/*-----------------------------*/
+
+
 /*-----------------------------*/
 /* Enquesta */
+
 .enquesta {  
     display: block;
     text-align: center;
@@ -292,7 +285,7 @@ a:link {
 }
 
 .enquesta li {
-    list-style-type:none;
+  list-style-type:none;
 }
 
 .enquesta ul {
@@ -300,7 +293,8 @@ a:link {
 }
 
 .enquesta fieldset {
-  background-color: white;
+  color: white;
+  background-color: #171717;
   border-radius: 15px;
 }
 
@@ -316,9 +310,50 @@ a:link {
 
 .boto input {
   border-radius: 10px;
-  background: #0066A2;
+  background: #404040;
   color: white;
   height: 50px;
   width: 300px;
   font: bold 15px arial,sans-serif;
+}
+
+/*-----------------------------*/
+
+
+/*-----------------------------*/
+/*Formulari de contacte*/
+
+.formulari {  
+    display: block;
+    text-align: center;
+}
+
+.formulari form {
+  width: 500px;
+  padding-top: 100px;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  text-decoration: none;
+} 
+
+.formulari li {
+  font-size: 15px;
+  list-style-type:none;
+}
+
+.formulari ul {
+  padding-left: 15px;
+}
+
+.formulari fieldset {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.formulari textarea {
+  width: 320px;
+  height: 200px;
+  resize: none;
 }
